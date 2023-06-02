@@ -1,0 +1,86 @@
+
+.sorting-container {
+    color: var(--dividing-color);
+    font-size: 70%;
+}
+
+.sorting-container button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.sorting-container button:hover {
+    color: var(--primary-text-color)
+}
+
+.body-container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+#soundtrack-wishlist{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.no-activity-text {
+    color: var(--tertiary-text-color);
+    margin-top: 20%;
+    /* text-align: center; */
+    /* width:100%; */
+    /* background-color: red; */
+}
+
+.no-activity-text a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    /* display: inline-block; */
+}
+
+.no-activity-text a:hover {
+    color: var(--primary-text-color);
+    text-decoration-line: underline;
+}
+
+.albums-container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    column-gap: 1%;
+    height: 35vh;
+}
+
+.albums-container a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    display: inline-block;
+    width: 9.1%;
+    height: 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: inset rgba(255, 255, 255, 0.341) 0px 1px 1px, inset rgba(255, 255, 255, 0.341) 0px 0px 0px 1px;
+    background-color: #2c3440;
+}
+
+.albums-container a:hover {
+    box-shadow: 0px 0px 0px 0.8px rgb(255, 255, 255);
+}
+
+
